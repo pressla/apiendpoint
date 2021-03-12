@@ -8,6 +8,6 @@ with open('trt.out') as json_file:
         d.append(json.loads(nest['msg']))
     last = d[-1]
     print(d[-1]['header'])
-    #print(d[-1]['date'])
-    #print(d[-1]['text'])
+    print(d[-1]['date'])
+    print(d[-1]['text'])
     
